@@ -242,7 +242,7 @@ a.logo-name:hover {
     font-size: 18px;
   }
   .image img {
-    height: 80%;
+    height: 75%;
   }
   .circle-1,
   .circle-2,
@@ -274,9 +274,13 @@ a.logo-name:hover {
     align-items: center;
   }
   .logo-name {
+    padding-bottom: 5px;
     display: inline;
     width: 30%;
     flex-direction: row;
+  }
+  .nav {
+    padding-bottom: 3px;
   }
   .header {
     display: flex;
@@ -287,13 +291,23 @@ a.logo-name:hover {
   }
   .lap-select {
     width: 50%;
-    bottom: 0%;
+    bottom: 5%;
     right: 50%;
     /////centering selectors
     transform: translate(50%, 5%);
   }
   .select {
+    margin-top: 1%;
     margin-left: 12%;
     margin-bottom: 5%;
+  }
+  .note p {
+    font-size: 15px;
+  }
+  .note h1 {
+    font-size: 30px;
+  }
+  .btns {
+    padding-top: 5px;
   }
 }

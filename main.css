@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
   margin: auto;
   height: 10vh;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo,
@@ -32,8 +32,8 @@ body {
 
 .logo {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .logo-name {
@@ -45,14 +45,14 @@ body {
 
 nav {
   -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .nav-lists {
   list-style: none;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
 }
 
 .nav-l {
@@ -63,11 +63,11 @@ nav {
 
 .cart {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 a.nav-l:hover,
@@ -83,27 +83,21 @@ a.logo-name:hover {
   margin: auto;
   min-height: 80vh;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .info {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .note h1 {
   color: #d47d1a;
   font-size: 50px;
   font-weight: 500;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#494964),
-    to(#6f6f89)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#494964), to(#6f6f89));
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -119,12 +113,12 @@ a.logo-name:hover {
 
 .note {
   -webkit-animation-name: notee;
-  animation-name: notee;
+          animation-name: notee;
   position: relative;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 @-webkit-keyframes notee {
@@ -150,19 +144,19 @@ a.logo-name:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   height: 60vh;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-animation-name: image-transition;
-  animation-name: image-transition;
+          animation-name: image-transition;
   position: relative;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes image-transition {
@@ -186,21 +180,21 @@ a.logo-name:hover {
 .image img {
   height: 100%;
   -webkit-filter: drop-shadow(0px 5px 3px black);
-  filter: drop-shadow(0px 5px 3px black);
+          filter: drop-shadow(0px 5px 3px black);
 }
 
 .btns {
   padding: 50px 0px 0px 0px;
   font-family: "Poppins", sans-serif;
   -webkit-animation-name: buttons;
-  animation-name: buttons;
+          animation-name: buttons;
   opacity: 0;
   -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+          animation-duration: 1.5s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes buttons {
@@ -261,17 +255,17 @@ a.logo-name:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   width: 15%;
   -webkit-animation-name: buttons;
-  animation-name: buttons;
+          animation-name: buttons;
   opacity: 0;
   -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+          animation-delay: 3s;
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .buttons {
@@ -308,8 +302,8 @@ a.logo-name:hover {
   .main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .info {
     margin-top: 5vh;
@@ -325,7 +319,7 @@ a.logo-name:hover {
     font-size: 18px;
   }
   .image img {
-    height: 80%;
+    height: 75%;
   }
   .circle-1,
   .circle-2,
@@ -337,7 +331,7 @@ a.logo-name:hover {
     bottom: 5%;
     right: 50%;
     -webkit-transform: translate(50%, 5%);
-    transform: translate(50%, 5%);
+            transform: translate(50%, 5%);
   }
   .logo-name {
     font-size: 15 px;
@@ -354,20 +348,24 @@ a.logo-name:hover {
   .btns {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-bottom: 3vh 5vh 2vh 5vh;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .logo-name {
+    padding-bottom: 5px;
     display: inline;
     width: 30%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .nav {
+    padding-bottom: 3px;
   }
   .header {
     display: -webkit-box;
@@ -375,22 +373,32 @@ a.logo-name:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .image img {
     height: 70%;
   }
   .lap-select {
     width: 50%;
-    bottom: 0%;
+    bottom: 5%;
     right: 50%;
     -webkit-transform: translate(50%, 5%);
-    transform: translate(50%, 5%);
+            transform: translate(50%, 5%);
   }
   .select {
+    margin-top: 1%;
     margin-left: 12%;
     margin-bottom: 5%;
+  }
+  .note p {
+    font-size: 15px;
+  }
+  .note h1 {
+    font-size: 30px;
+  }
+  .btns {
+    padding-top: 5px;
   }
 }
 /*# sourceMappingURL=main.css.map */
